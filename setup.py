@@ -11,7 +11,7 @@ def parse_requirements(filename):
 requirements = parse_requirements('requirements.txt')
 
 setup(
-    name='XYZ',
+    name='pyliczba',
     version='0.1.0',
     packages=find_packages(),
     install_requires=requirements,
